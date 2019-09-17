@@ -12,7 +12,7 @@ The dataframe has 4 columns:
 
 Each row represent total impressions per a specific date, specific product in a specific cc.
 
-Before you start to write your query you need to organize the data. Use this query as a start:
+Before you start to write your PinPointer you need to organize the data. Use this query as a start:
 ```sql
 with country as(
 select 'country' as indicator ,date,  cc as name, SUM(impressions) as impressions
