@@ -13,7 +13,8 @@ The dataframe has 4 columns:
 Each row represent total impressions per a specific date, specific product in a specific cc.
 
 Before you start to write your query you need to order the data a bit:
->with country as(
+```sql
+with country as(
 select 'country' as indicator ,date,  cc as name, SUM(impressions) as impressions
 from table
 group by 1,2,3
@@ -33,3 +34,4 @@ from product
 union all
 select *
 from os
+```
