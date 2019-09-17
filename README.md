@@ -1,4 +1,4 @@
-# Making your data analysis efficient with the PinPointer dashboard
+## Making your data analysis efficient with the PinPointer dashboard
 [Medium Post](https://www.google.com)
 ### Data source - Users impressions:
 * Date - timestamp, mm-dd-yyyy
