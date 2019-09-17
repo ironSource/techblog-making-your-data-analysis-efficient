@@ -31,7 +31,4 @@ from country
 union all 
 select *
 from product
-union all
-select *
-from os
 ```
