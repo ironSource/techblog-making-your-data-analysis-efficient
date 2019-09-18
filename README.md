@@ -2,7 +2,6 @@
 [Medium Post](https://www.google.com)
 ### Data source - PinPointer - User Impressions.csv:
 We made a dataframe for you to play with. 
-You can find there an example for users impressions in two of our products and a few countries we work in.
 
 The dataframe has 4 columns:
 * Date - timestamp, mm-dd-yyyy
